@@ -69,3 +69,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Built With
+- Django 3.0.8 - The web framework used
+- React 17 - Frontend
+- Python3.8 - Backend logic
+- Postresql - Database system
+
+## Author
+​
+👤 **Author**
+
+- Barrack Odhiambo
+
+- GitHub:[Barrack-coder](https://github.com/Barrack-coder)
+- twitter: [@Barry Lemayian](https://twitter.com/Barrylemayian)
+- Email: jumabarrack17@gmail.com
+​
+​
+​
+## �� Contributing
+​
+Contributions, issues, and feature requests are welcome!
+​
+Feel free to check the [issues page](ISSUE_TEMPLATE/feature_request.md).
+​
+## Show your support
+​
+Give a ⭐️ if you like this project!
+​
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
