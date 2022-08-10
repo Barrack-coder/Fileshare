@@ -1,8 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import jwt_decode from "jwt-decode";
-import { useNavigate } from "react-router-dom";
 import { AuthMessages } from "./ErrorMessages/AuthMessages"
-import { Auth } from "./ErrorMessages/Auth"
 
 
 export const AuthContext = createContext();
@@ -129,8 +127,8 @@ export const AuthProvider = ({ children }) =>
       {loading ? null : children}
     </AuthContext.Provider>
     {
-         login_error_message!= "" || login_success_message!="" || logout_success_message!= ""?
-            ( 
+       login_error_message!= "" || login_success_message!="" || logout_success_message!= ""?
+           ( 
               <AuthMessages login_error_message={login_error_message} login_success_message={login_success_message}  logout_success_message={logout_success_message}/> 
             ):(<>
               <AuthMessages login_error_message={""} login_success_message={""}  logout_success_message={""}/> 
@@ -185,7 +183,7 @@ export const AuthProvider = ({ children }) =>
 const messages = () => {
   return (
     // <div>
-    //   <h5>Kelvin Kip</h5>
+    //   <h5>Barry</h5>
     // </div>
     <div className='user_messages opacity-25'>
   
@@ -201,5 +199,5 @@ const messages = () => {
       </>
     </div>
   )
-  // <AuthMessages data={"Kelvin"}/>
+  // <AuthMessages data={"Barry"}/>
 }
