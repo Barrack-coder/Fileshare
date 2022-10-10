@@ -4,7 +4,7 @@ import {AuthContext} from "../context/AuthContext";
 import { FaHome } from 'react-icons/fa';
 import { FiLogIn, FiLogOut, FiUserPlus, FiUpload, FiUser } from 'react-icons/fi';
 import { ImFilesEmpty} from 'react-icons/im'
-import UserInfo from "./UserInfo";
+
 
 const Navbar = () => {
 const { user, logoutUser } = useContext(AuthContext);
