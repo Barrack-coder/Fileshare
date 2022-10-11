@@ -7,9 +7,8 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon Oct 10 09:28:45 2022
+# Make data base, printed on Tue Oct 11 18:00:22 2022
 
 # Variables
 
@@ -54,7 +53,7 @@ SNAP_DATA = /var/snap/code/109
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:50013
+JOURNAL_STREAM = 8:49898
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -78,7 +77,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 _ = /snap/code/109/usr/share/code/code
 # environment
-MANAGERPID = 1682
+MANAGERPID = 1658
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -94,7 +93,7 @@ PATH = /home/baraka/.local/bin:/home/baraka/.local/bin:/usr/local/sbin:/usr/loca
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/Latitude-E7470:@/tmp/.ICE-unix/1898,unix/Latitude-E7470:/tmp/.ICE-unix/1898
+SESSION_MANAGER = local/Latitude-E7470:@/tmp/.ICE-unix/1876,unix/Latitude-E7470:/tmp/.ICE-unix/1876
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -108,7 +107,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 2c5eb849383b4cadb3d69a9af3533b2b
+INVOCATION_ID = c2b9b1e955f74706a7f5b9fa097647dc
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/109/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -120,7 +119,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2372
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3089
 # automatic
 %F = $(notdir $%)
 # environment
@@ -264,7 +263,7 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2429
+VSCODE_PID = 3148
 # environment
 NVM_RC_VERSION = 
 # variable set hash-table stats:
@@ -282,13 +281,13 @@ NVM_RC_VERSION =
 
 # Implicit Rules
 
+ 
 # No implicit rules.
 
 # Files
 
 # Not a target:
 all:
- 
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
@@ -335,6 +334,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Mon Oct 10 09:28:45 2022
+# Finished Make data base on Tue Oct 11 18:00:22 2022
 
  
