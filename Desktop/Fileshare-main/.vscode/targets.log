@@ -2,13 +2,18 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
 # This is free software: you are free to change and redistribute it.
+ 
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Oct 11 18:00:22 2022
+# Make data base, printed on Wed Oct 12 22:18:44 2022
 
 # Variables
 
@@ -49,11 +54,11 @@ CURDIR := /home/baraka/Desktop/Fileshare-main
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/109
+SNAP_DATA = /var/snap/code/110
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:49898
+JOURNAL_STREAM = 8:49102
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -75,9 +80,9 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-_ = /snap/code/109/usr/share/code/code
+_ = /snap/code/110/usr/share/code/code
 # environment
-MANAGERPID = 1658
+MANAGERPID = 1656
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -85,7 +90,7 @@ LC_NAME = en_US.UTF-8
 # environment
 VSCODE_CWD = /home/baraka
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/109/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/110/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -93,34 +98,59 @@ PATH = /home/baraka/.local/bin:/home/baraka/.local/bin:/usr/local/sbin:/usr/loca
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/Latitude-E7470:@/tmp/.ICE-unix/1876,unix/Latitude-E7470:/tmp/.ICE-unix/1876
+SESSION_MANAGER = local/Latitude-E7470:@/tmp/.ICE-unix/1872,unix/Latitude-E7470:/tmp/.ICE-unix/1872
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
+ 
 SSH_AGENT_LAUNCHER = gnome-keyring
+ 
 # environment
-SNAP = /snap/code/109
+ 
+SNAP = /snap/code/110
+ 
 # environment
-SNAP_VERSION = 64bbfbf6
+ 
+SNAP_VERSION = 129500ee
+ 
 # environment
+ 
 XDG_MENU_PREFIX = gnome-
+ 
 # environment
+ 
 ELECTRON_RUN_AS_NODE = 1
+ 
 # environment
-INVOCATION_ID = c2b9b1e955f74706a7f5b9fa097647dc
+ 
+INVOCATION_ID = 3499bc31af984f2fa71926dfe52a47d8
+ 
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/109/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+ 
+GDK_PIXBUF_MODULEDIR = /snap/code/110/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+ 
 # default
+ 
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+ 
 # environment
+ 
 LS_COLORS = 
+ 
 # environment
+ 
 XDG_SESSION_DESKTOP = ubuntu
+ 
 # environment
+ 
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3089
+ 
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3872
+ 
 # automatic
+ 
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
@@ -143,7 +173,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/baraka/.config/Code/CachedData/64bbfbf67ada9953918d72e1df2f4d8e537d340e
+VSCODE_CODE_CACHE_PATH = /home/baraka/.config/Code/CachedData/129500ee4c8ab7263461ffe327268ba56b9f210d
 # environment
 LOGNAME = baraka
 # environment
@@ -177,7 +207,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/baraka/snap/code/109
+SNAP_USER_DATA = /home/baraka/snap/code/110
 # environment
 SHLVL = 0
 # environment
@@ -187,7 +217,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = baraka
 # environment
-SNAP_REVISION = 109
+SNAP_REVISION = 110
 # environment
 LC_MONETARY = en_US.UTF-8
 # makefile
@@ -205,7 +235,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-a791f283-1.72.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a791f283-1.72.1-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
@@ -263,7 +293,7 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 3148
+VSCODE_PID = 3918
 # environment
 NVM_RC_VERSION = 
 # variable set hash-table stats:
@@ -275,13 +305,12 @@ NVM_RC_VERSION =
 
 # Directories
 
-# . (device 2050, inode 4339634): 8 files, no impossibilities.
+# . (device 2050, inode 4339634): 7 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
- 
 # No implicit rules.
 
 # Files
@@ -328,12 +357,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 144 B / avg = 9 B
-# current buf: size = 8162 B / used = 144 B / count = 16 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 134 B / avg = 8 B
+# current buf: size = 8162 B / used = 134 B / count = 15 / avg = 8 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Tue Oct 11 18:00:22 2022
+# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
+# Finished Make data base on Wed Oct 12 22:18:44 2022
 
  
