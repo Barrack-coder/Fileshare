@@ -5,6 +5,9 @@
 .App {
   margin: 0;
 }
+.white-content {
+  background: #e4e4e4;
+}
 .navbar-brand
 {
   font-size: 3em;
